@@ -1,0 +1,25 @@
+{
+  "name": "gpiomapper",
+  "version": "1.0.0",
+  "keywords": "",
+  "description": "Get and Set io pin number according to the hardware revision",
+  "authors": {
+    "name": "Alexandre Maurer",
+    "url": "https://github.com/alexmaurer-madis",
+    "maintainer": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexmaurer-madis/gpiomapper"
+  },
+  "homepage": "https://github.com/alexmaurer-madis/gpiomapper",
+  "export": {
+    "exclude": []
+  },
+  "dependencies": {
+  },
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "headers": []
+}
