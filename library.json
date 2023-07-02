@@ -1,8 +1,8 @@
 {
-  "name": "gpiomapper",
+  "name": "samdutil",
   "version": "1.0.0",
   "keywords": "",
-  "description": "Get and Set io pin number according to the hardware revision",
+  "description": "Functions for SAMD21 like setting up the watchdog",
   "authors": {
     "name": "Alexandre Maurer",
     "url": "https://github.com/alexmaurer-madis",
@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexmaurer-madis/gpiomapper"
+    "url": "https://github.com/alexmaurer-madis/samdutil"
   },
-  "homepage": "https://github.com/alexmaurer-madis/gpiomapper",
+  "homepage": "https://github.com/alexmaurer-madis/samdutil",
   "export": {
     "exclude": []
   },
@@ -20,6 +20,6 @@
   },
   "license": "MIT",
   "frameworks": "arduino",
-  "platforms": "*",
-  "headers": []
+  "platforms": "atmelsam",
+  "headers": ["samdutil.h"]
 }
